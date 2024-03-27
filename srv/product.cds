@@ -16,9 +16,9 @@ annotate nnrg.Product with {
 };
 
 annotate nnrg.Product with {
-@Common.Text : ' {Product}'
-@Core.IsURL: true
-@Core.MediaType: 'image/jpg'
+// @Common.Text : ' {Product}'
+// @Core.IsURL: true
+// @Core.MediaType: 'image/jpg'
 product_img;
 };
 
