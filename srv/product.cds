@@ -9,7 +9,7 @@ service nnrg {
         };
 }
 
-annotate nnrg.Product with @odata.draft.enabled;
+// annotate nnrg.Product with @odata.draft.enabled;
 
 annotate nnrg.Product with {
     product_img @assert.match: '^https?:\/\/.*\.(?:png|jpg|jpeg)$';
